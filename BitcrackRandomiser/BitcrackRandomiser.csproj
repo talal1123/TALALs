@@ -15,10 +15,10 @@
     <RepositoryType>git</RepositoryType>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <Description>Bitcrackrandomiser app for bitcoin puzzle hunting.</Description>
-    <Company>ILKERC</Company>
-    <Authors>ILKERC</Authors>
+    <Company>Talal</Company>
+    <Authors>Salam</Authors>
     <Product />
-    <Title>BitcrackRandomiser</Title>
+    <Title>TALALPooL</Title>
   </PropertyGroup>
 
   <ItemGroup>
