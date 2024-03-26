@@ -9,9 +9,9 @@
     <AssemblyVersion>1.3.0.0</AssemblyVersion>
     <FileVersion>1.3.0.0</FileVersion>
     <ApplicationIcon>icon.ico</ApplicationIcon>
-    <PackageProjectUrl>https://github.com/ilkerccom/bitcrackrandomiser</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/talal1123/TALALs</PackageProjectUrl>
     <Copyright>ILKERC.</Copyright>
-    <RepositoryUrl>https://github.com/ilkerccom/bitcrackrandomiser</RepositoryUrl>
+    <RepositoryUrl>https://github.com/talal1123/TALALs</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <Description>Bitcrackrandomiser app for bitcoin puzzle hunting.</Description>
