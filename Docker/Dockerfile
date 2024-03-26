@@ -21,17 +21,9 @@ ENV BC_UNTRUSTED_COMPUTER="false"
 ENV BC_FORCE_CONTINUE="false"
 ENV BC_PRIVATEPOOL="none"
 
-# Clone and build bitcrack. For older graphics cards, you can lower the <COMPUTE_CAP> value.
 WORKDIR /app
 RUN apt-get update \
  && apt-get install git nano curl -y
-RUN git clone https://github.com/brichard19/BitCrack
-WORKDIR /app/BitCrack
-
-# Build for AMD and OpenCL devices
-#RUN make BUILD_OPENCL=1 COMPUTE_CAP=86
-# Build for NVIDIA CUDA devices
-RUN make BUILD_CUDA=1 COMPUTE_CAP=86
 
 # Clone and build vanitysearch.
 WORKDIR /app
@@ -41,7 +33,7 @@ WORKDIR /app/VanitySearch
 # Build for CPU
 #RUN make all
 # Build for NVIDIA CUDA devices
-RUN make gpu=1 CCAP=2.0 all
+RUN make gpu=1 CCAP=75 all
 
 # Install .NET Core
 ENV DOTNET_SDK_VERSION 6.0.411
